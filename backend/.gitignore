@@ -1,0 +1,75 @@
+# ===================================
+# Spring Boot Backend .gitignore
+# ===================================
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Application properties with sensitive data
+application.properties
+application.yml
+application.yaml
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Logs
+*.log
+logs/
+
+# H2 Database files
+*.db
+*.trace.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# JVM Crash logs
+hs_err_pid*
+
+# Security files
+*.key
+*.pem
+*.p12
+*.jks
+
+# Development Tools
+.zencoder/

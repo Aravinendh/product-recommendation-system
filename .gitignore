@@ -1,0 +1,200 @@
+# ===================================
+# Product Recommendation System
+# Comprehensive .gitignore
+# ===================================
+
+# ===================================
+# IDE & Editor Files
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===================================
+# Frontend (React/Vite) - Node.js
+# ===================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+frontend/.vite/
+frontend/.cache/
+frontend/coverage/
+
+# ===================================
+# Backend (Spring Boot/Maven) - Java
+# ===================================
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.mvn/wrapper/maven-wrapper.properties
+backend/.mvn/wrapper/MavenWrapperDownloader.java
+backend/mvnw
+backend/mvnw.cmd
+
+# Spring Boot specific
+backend/HELP.md
+backend/.gradle/
+backend/build/
+backend/!gradle/wrapper/gradle-wrapper.jar
+backend/!**/src/main/**/target/
+backend/!**/src/test/**/target/
+
+# IDE generated files for Java
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.sts4-cache
+backend/bin/
+backend/!**/src/main/**/bin/
+backend/!**/src/test/**/bin/
+
+# ===================================
+# Database & Configuration
+# ===================================
+# Database files (if using H2 or SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+**/application.properties
+**/application.yml
+**/application.yaml
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/.env
+**/.env.local
+
+# ===================================
+# Logs & Temporary Files
+# ===================================
+logs/
+*.log
+*.log.*
+log/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ===================================
+# OS Generated Files
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================================
+# Security & Sensitive Data
+# ===================================
+# JWT secrets, API keys, passwords
+secrets/
+*.key
+*.pem
+*.p12
+*.jks
+keystore.*
+
+# ===================================
+# Build & Deployment
+# ===================================
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Deployment scripts with sensitive data
+deploy-prod.sh
+deploy-staging.sh
+
+# ===================================
+# Development Tools
+# ===================================
+# Zencoder (AI assistant files)
+.zencoder/
+**/.zencoder/
+
+# Testing
+coverage/
+test-results/
+*.coverage
+.nyc_output/
+
+# ===================================
+# Package Managers
+# ===================================
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===================================
+# Documentation (Optional)
+# ===================================
+# Uncomment if you don't want to track these
+# *.md
+# docs/generated/
+
+# ===================================
+# Project Specific
+# ===================================
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Generated documentation
+javadoc/
+jsdoc/
+
+# Performance monitoring
+*.hprof
+*.prof
+
+# ===================================
+# Cloud & CI/CD
+# ===================================
+# AWS
+.aws/
+aws-exports.js
+
+# Heroku
+.env.production
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# ===================================
+# END OF .gitignore
+# ===================================
